@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+}
+
+header {
+    margin: auto;
+    padding-top: 40px;
+    background-color: brown;
+    width: 100%;
+    height: 19.7em;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: auto;
+    padding: 10px;
+    width: 73%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3em;
+    background-image: none;
+    color: aliceblue;
+}
+
+header p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+header button {
+    width: 25%; height: 50px;
+    margin-left: 37.5%;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+header button:hover {
+    background-color: rgb(71, 18, 18);
+    color: aliceblue;
+}
+
+main {
+    margin: auto;
+    width: 75%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px;
+
+    /* Transição suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+#sobre img:hover {
+    /* Efeito ao passar o mouse */
+    transform: scale(2); /* aumenta de tamanho */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* sombra para parecer flutuando */
+    z-index: 10; /* fica por cima dos outros elementos */
+}
+
+main #sobre {
+    height: 15em;
+    padding: 3.125em;
+    padding-bottom: 7em;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+main ul {
+    font-size: 1.2em;
+}
+
+main #sobre img {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+main #sobre_conteudo {
+    margin-top: -200px;
+    margin-left: 250px;
+}
+
+main #servicos {
+    background-color: aliceblue;
+    padding: 30px;
+    height: 20em;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding-left: 10px;
+    background-image: linear-gradient(to right, brown, aliceblue 80%);
+    color: aliceblue;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.747);
+}
+
+main .servicos {
+    width: 18em;
+    height: 13em;
+    margin-top: 40px;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.534);
+}
+
+main .servicos h2 {
+    padding: 0.5em;
+    text-shadow: 1px 1px 3px black;
+}
+
+#doisserv {
+    margin-top: -14.67em;
+    margin-left: 19em;
+}
+
+#tresserv {
+    margin-top: -14.67em;
+    margin-left: 38em;
+}
+
+main #depoimentos {
+    padding: 30px;
+    background-color: aliceblue;
+    height: 25em;
+}
+
+main .depoimentos {
+    background-color: rgb(216, 216, 216);
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.depoimentos img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.depoimentos p {
+    margin-top: -125px;
+    margin-left: 250px;
+}
+
+.depoimentos h3 {
+    margin-top: -125px;
+    margin-left: 250px;
+}
+
+#doisdpm {
+    margin-top: -252px;
+    margin-left: 460px;
+}
